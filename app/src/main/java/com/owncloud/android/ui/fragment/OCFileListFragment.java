@@ -1662,6 +1662,11 @@ public class OCFileListFragment extends ExtendedListFragment implements
         return searchFragment;
     }
 
+    @Override
+    public boolean isGalleryFragment() {
+        return false;
+    }
+
     /**
      * De-/select all elements in the current list view.
      *
